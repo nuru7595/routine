@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-Nunito text-white bg-indigo-400 font-bold text-center;
+}
+
+section,
+header,
+footer {
+  @apply bg-indigo-700;
+}
+
+section {
+  @apply rounded-xl my-3;
+}
+
+.section-title {
+  @apply py-2 border-b-2 border-white;
+}
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-lg;
+}
+
+table {
+  @apply w-full table-fixed;
+}
+
+tr {
+  @apply border-b border-white;
+}
+
+tr:last-child {
+  @apply border-0;
+}
+
+td {
+  @apply px-2 sm:px-5 py-2;
+}
