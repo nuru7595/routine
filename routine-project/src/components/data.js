@@ -24,19 +24,19 @@ const data = [
         ]
     },
     {
-        title: "Study",
+        title: "Work",
         table: [
             {
-                th: "After Fojor",
-                td: "Before Work"
+                th: "After Sleep",
+                td: "Before Study"
             }, {
-                th: "After Dinner",
+                th: "After Magreeb",
                 td: "Before Sleep"
             }
         ]
     },
     {
-        title: "Work",
+        title: "Study",
         table: [
             {
                 th: "9 AM",
